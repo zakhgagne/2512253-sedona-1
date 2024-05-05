@@ -1,0 +1,130 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+.visually-hidden {
+  display: none;
+}
+
+body {
+  margin: 0;
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #242424;
+  background-color: #f2f2f2;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.header {
+  background-color: #ffffff;
+  position: relative;
+  padding: 0 68px 0 238px;
+}
+
+.logo-link {
+  position: absolute;
+  top: 0;
+  left: 70px;
+}
+
+.logo-image {}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-menu {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  width: 500px;
+  flex-wrap: wrap;
+}
+
+.menu-item {}
+
+.menu-link {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #000000;
+  text-decoration: none;
+  display: block;
+  padding: 20px 16px;
+
+}
+
+.menu-item:nth-child(1) {
+  background-color: red;
+}
+
+.menu-item:nth-child(2) {
+  background-color: blue;
+}
+
+.menu-item:nth-child(3) {
+  background-color: red;
+}
+
+.user-menu {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+}
+
+.welcome {
+  background-color: #2d5063;
+  background-image: url("../images/divider.svg"), url("../images/index-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center bottom, center top;
+  background-size: 1200px 57px, cover;
+  padding-top: 51px;
+  padding-bottom: 82px;
+  min-height: 352px;
+}
+
+.welcome-image {
+  display: block;
+  margin: 0 auto;
+}
+
+.reason-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.comfort-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.news-letter {
+  background-image: url("../images/subscribe.jpg");
+  background-repeat: no-repeat;
+}
