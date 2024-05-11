@@ -392,7 +392,7 @@ body {
   /* Кнопка */
   display: flex;
   flex-direction: row;
-  width: 752px;
+  width: 452px;
   height: 52px;
 
 }
@@ -405,8 +405,6 @@ body {
     flex-grow: 0;
 }
 .field {
-  width: 452px;
-    height: 52px;
   /* Auto layout */
   flex-direction: row;
   align-items: center;

@@ -204,11 +204,9 @@ body {
 .comfort-item {
   width: 400px;
 }
-
 .comfort-item:nth-child(even) {
   background-color: #ffffff;
 }
-
 .comfort-item:nth-child(odd) {
   background-color: #f0f6fa;
 }
@@ -223,7 +221,6 @@ body {
 .desription {
   padding: 0;
   margin: 0;
-  text-transform: uppercase;
 }
 
 .footer-container {
@@ -261,7 +258,7 @@ body {
   padding: 0;
   margin: 0 auto;
   width: 490px;
-  height: 70px;
+  height: 26px;
 
   /* Texts/Text basic */
   font-weight: 400;
@@ -291,134 +288,11 @@ body {
   margin: 0 auto;
   padding: 0;
 }
-
 .comfort-title {
-  text-transform: uppercase;
+text-transform: uppercase;
 }
 
-
-
-/* Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне */
-.simple-text-interest {
-  width: 592px;
-  height: 52px;
-  /* Texts/Text basic */
-  font-family: 'PT Sans';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 26px;
-  /* or 118% */
-  text-align: center;
-
-  /* Texts/second */
-  color: #333333;
-
-  /* Inside auto layout */
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-}
-
-.container-button {
-  /* Кнопка */
-  width: 376px;
-  height: 52px;
-  color: #FFFFFF;
-  /* Inside auto layout */
-  flex: none;
-  order: 1;
-  flex-grow: 0;
+.button-search-motel{
   margin: 0 auto 0;
   padding: 0;
-  padding-top: 10;
-  background-color: #756157;
-
-}
-
-.button-search-motel {
-  margin: auto;
-  padding-top: 5px;
-  width: 276px;
-  height: 36px;
-
-  /* Buttons/Button big */
-  font-family: 'PT Sans';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 36px;
-  /* identical to box height, or 180% */
-  display: flex;
-  align-items: center;
-  text-align: center;
-  text-transform: uppercase;
-  text-decoration: none;
-  /* Texts/background/deafault */
-  color: #FFFFFF;
-
-
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-
-.container-letter {
-  /* Frame 29 */
-
-  /* Auto layout */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 0 px;
-  gap: 20px;
-
-  width: 475px;
-  height: 108.86px;
-
-
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  color: #FFFFFF;
-  margin: 0 auto 0;
-  padding-top: 83px;
-}
-
-.subscribe-form {
-
-  /* Кнопка */
-  display: flex;
-  flex-direction: row;
-  width: 752px;
-  height: 52px;
-
-}
-.subscribe-form-button {
-  /* Кнопка
-/* Inside auto layout */
-    width: 452px;
-      height: 52px;
-    order: 1;
-    flex-grow: 0;
-}
-.field {
-  width: 452px;
-    height: 52px;
-  /* Auto layout */
-  flex-direction: row;
-  align-items: center;
-  padding: 12px 20px;
-  gap: 260px;
-  /* basic/light */
-  background: #F2F2F2;
-  border-radius: 4px 0px 0px 4px;
-
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  align-self: stretch;
-  flex-grow: 1;
 }

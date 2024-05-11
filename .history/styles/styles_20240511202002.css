@@ -386,39 +386,23 @@ body {
   margin: 0 auto 0;
   padding-top: 83px;
 }
+.subscribe-form-button
+{
+/* Frame 25 */
 
-.subscribe-form {
-
-  /* Кнопка */
+  /* Auto layout */
   display: flex;
-  flex-direction: row;
-  width: 752px;
+  align-items: center;
+  padding: 0px;
+
+  width: 684px;
   height: 52px;
 
-}
-.subscribe-form-button {
-  /* Кнопка
-/* Inside auto layout */
-    width: 452px;
-      height: 52px;
-    order: 1;
-    flex-grow: 0;
-}
-.field {
-  width: 452px;
-    height: 52px;
-  /* Auto layout */
-  flex-direction: row;
-  align-items: center;
-  padding: 12px 20px;
-  gap: 260px;
-  /* basic/light */
-  background: #F2F2F2;
-  border-radius: 4px 0px 0px 4px;
 
   /* Inside auto layout */
   flex: none;
-  order: 0;
-  align-self: stretch;
-  flex-grow: 1;
+  order: 1;
+  flex-grow: 0;
+
+
 }

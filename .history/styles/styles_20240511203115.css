@@ -387,31 +387,17 @@ body {
   padding-top: 83px;
 }
 
-.subscribe-form {
-
-  /* Кнопка */
-  display: flex;
-  flex-direction: row;
-  width: 752px;
-  height: 52px;
-
-}
-.subscribe-form-button {
-  /* Кнопка
-/* Inside auto layout */
-    width: 452px;
-      height: 52px;
-    order: 1;
-    flex-grow: 0;
-}
 .field {
-  width: 452px;
-    height: 52px;
   /* Auto layout */
+  display: flex;
   flex-direction: row;
   align-items: center;
   padding: 12px 20px;
   gap: 260px;
+
+  width: 452px;
+  height: 52px;
+
   /* basic/light */
   background: #F2F2F2;
   border-radius: 4px 0px 0px 4px;
@@ -421,4 +407,14 @@ body {
   order: 0;
   align-self: stretch;
   flex-grow: 1;
+}
+
+.subscribe-form {
+
+  /* Кнопка */
+  display: flex;
+  flex-direction: row;
+  width: 232px;
+  height: 52px;
+
 }
