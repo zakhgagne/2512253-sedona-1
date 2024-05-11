@@ -27,7 +27,7 @@ body {
   background-color: #f2f2f2;
 }
 
-.container {
+.container{
   width: 1200px;
   margin: 0 auto;
   background-color: #ffffff;
@@ -38,33 +38,21 @@ body {
 
 .header {
   background-color: #ffffff;
-  position: relative;
-  padding: 0 68px 0 238px;
 }
 
-.logo-link {
-  position: absolute;
-  top: 0;
-  left: 70px;
-}
+.logo-link {}
 
 .logo-image {}
 
-.navigation {
-  display: flex;
-  justify-content: space-between;
-}
+.navigation {}
 
 .main-menu {
   padding: 0;
   margin: 0;
   list-style: none;
-  display: flex;
-  width: 500px;
-  flex-wrap: wrap;
 }
 
-.menu-item {}
+.meni-item {}
 
 .menu-link {
   font-size: 20px;
@@ -72,28 +60,6 @@ body {
   line-height: 24px;
   color: #000000;
   text-decoration: none;
-  display: block;
-  padding: 20px 16px;
-
-}
-
-.menu-item:nth-child(1) {
-  background-color: red;
-}
-
-.menu-item:nth-child(2) {
-  background-color: blue;
-}
-
-.menu-item:nth-child(3) {
-  background-color: red;
-}
-
-.user-menu {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  display: flex;
 }
 
 .welcome {
